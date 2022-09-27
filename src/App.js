@@ -10,6 +10,10 @@ function App() {
       <Router>
       <Navbar></Navbar>
       </Router>
+      <Header></Header>
+      <Experience></Experience>
+      <CTA></CTA>
+      <Footer></Footer>
     </div>
   );
 }
