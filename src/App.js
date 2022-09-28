@@ -7,9 +7,11 @@ import { Footer, Header } from './containers';
 function App() {
   return (
     <div className='App'>
-      <Router>
-      <Navbar></Navbar>
-      </Router>
+      <div className='gradient__bg'>
+        <Router>
+        <Navbar></Navbar>
+        </Router>
+      </div>
       <Header></Header>
       <Experience></Experience>
       <CTA></CTA>
