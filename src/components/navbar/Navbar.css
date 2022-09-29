@@ -1,0 +1,14 @@
+.pog-navbar__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pog-navbar__container--logo {
+    font-size: xx-large;
+    font-family: "NTR",sans-serif;
+    color: aliceblue;
+    font-weight: 300;
+    font-size: 48px;
+
+}
