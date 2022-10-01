@@ -1,14 +1,61 @@
+.pog-navbar {
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem; */
+}
+
 .pog-navbar__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 2rem 6rem;
 }
 
 .pog-navbar__container--logo {
-    font-size: xx-large;
-    font-family: "NTR",sans-serif;
-    color: aliceblue;
-    font-weight: 300;
-    font-size: 48px;
+    font-size: 50px;
+    margin-right: 2rem;
+}
 
+.pog-navbar__container--links {
+    display: flex;
+    /* direction: row; */
+}
+
+.pog-navbar__container--links p {
+    margin: 0 1rem;
+}
+
+.pog-navbar__container--menu {
+    margin-left: 1rem;
+    display: none;
+    position: relative;
+}
+
+.pog-navbar__menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+
+    text-align: end;
+    background: var(--color-lighter);
+    padding: 2rem;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    margin-top: 1rem;
+    min-width: 210px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0, 0,0.2);
+}
+
+@media screen and (max-width: 1050px) {
+    .pog-navbar__container--links {
+        display: none;
+    }
+
+    .pog-navbar__container--menu {
+        display: flex;
+    }
 }

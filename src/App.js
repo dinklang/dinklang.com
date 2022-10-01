@@ -8,14 +8,16 @@ function App() {
   return (
     <div className='App'>
       <div className='gradient__bg'>
-        <Router>
-        <Navbar></Navbar>
-        </Router>
+          <div>
+            <Router>
+            <Navbar></Navbar>
+            </Router>
+          </div>
+        <Header></Header>
+        <Experience></Experience>
+        <CTA></CTA>
+        <Footer></Footer>
       </div>
-      <Header></Header>
-      <Experience></Experience>
-      <CTA></CTA>
-      <Footer></Footer>
     </div>
   );
 }
