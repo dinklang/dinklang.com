@@ -1,0 +1,18 @@
+.header__container {
+    padding-left: 15%;
+}
+
+.header__title {
+    font-size: 25px;
+}
+.header__message, .header__description {
+    color: var(--color-subtext);
+}
+
+@media screen and (max-width: 700px) {
+    .header__container {
+      padding: 2rem;
+      text-align: center;
+    }
+  }
+  
