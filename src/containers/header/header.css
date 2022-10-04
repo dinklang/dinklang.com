@@ -1,13 +1,28 @@
 .header__container {
     padding-left: 15%;
+    padding-top: 15%;
 }
 
 .header__title {
-    font-size: 25px;
+    font-size: 48px;
 }
-.header__message, .header__description {
+
+.pog-name {
+    color: var(--color-special)
+}
+
+.header__message {
     color: var(--color-subtext);
+    font-size: 35px;
+    padding: 10px 0px;
 }
+
+.header__description {
+    color: var(--color-subtext);
+    max-width: 30%;
+    text-align: justify;
+}
+
 
 @media screen and (max-width: 700px) {
     .header__container {
