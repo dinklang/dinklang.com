@@ -1,0 +1,23 @@
+.about__container {
+    padding-left: 15%;
+    color: var(--color-subtext)
+}
+
+.about__title {
+    font-size: 35px;
+    padding: 20px 0px;
+}
+
+.about__me, .about__technologies {
+    color: var(--color-subtext)
+}
+
+@media screen and (max-width: 1050px) {
+    .about__container {
+        padding-left: 2rem;
+    }
+
+    .about__me {
+        text-align: justify;
+    }
+}
