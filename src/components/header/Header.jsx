@@ -48,10 +48,10 @@ class Header extends React.Component {
         <div className='header__visual'>
           <img src={droski}></img>
         </div>
-        <div class="header__scroll">
-          <div class="chevron"></div>
-          <div class="chevron"></div>
-          <div class="chevron"></div>
+        <div className="header__scroll">
+          <div className="chevron"></div>
+          <div className="chevron"></div>
+          <div className="chevron"></div>
         </div>
       </div>
     )

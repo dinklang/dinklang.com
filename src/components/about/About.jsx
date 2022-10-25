@@ -7,7 +7,7 @@ class About extends React.Component {
       <div className="about__container">
         <div className="about__title"><p>about me</p></div>
         <div className="about__me">
-          i am currently a computer science student at the University of Texas - Arlington,
+          i am currently a computer science student at the University of Texas - Arlington, i am passionate for many things.
         </div>
 
         <div className="about__technologies">

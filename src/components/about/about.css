@@ -6,10 +6,15 @@
 .about__title {
     font-size: 35px;
     padding: 20px 0px;
+    line-height: 200%;
 }
 
 .about__me, .about__technologies {
-    color: var(--color-subtext)
+    color: var(--color-subtext);
+    font-size: 20px;
+    line-height: 170%;
+    text-align: justify;
+    max-width: 500px;
 }
 
 @media screen and (max-width: 1050px) {
