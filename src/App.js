@@ -1,8 +1,7 @@
 import React from 'react'
 import './App.css'
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
-import { CTA, About } from './components';
-import { Footer, Header } from './containers';
+import { CTA, About, Header, Footer} from './components';
 
 function App() {
   return (
