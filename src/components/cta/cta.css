@@ -1,0 +1,10 @@
+.cta_section {
+    padding-left: 15%;
+    color: var(--color-subtext)
+}
+
+.cta_title {
+    font-size: 35px;
+    padding: 20px 0px;
+    line-height: 200%;
+}
