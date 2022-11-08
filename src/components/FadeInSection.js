@@ -3,7 +3,6 @@ import React from "react";
 export default function FadeInSection(props) {
   const [isVisible, setVisible] = React.useState(false);
   const domRef = React.useRef();
-  console.log(domRef)
   React.useEffect(() => {
     const observer = new IntersectionObserver(entries => {
       entries.forEach(entry => {
@@ -13,7 +12,6 @@ export default function FadeInSection(props) {
       });
     });
     observer.observe(domRef.current);
-    console.log("XDD")
     return () => observer.unobserve(domRef.current);
   }, []);
   return (

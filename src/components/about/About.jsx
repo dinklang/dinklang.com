@@ -32,19 +32,19 @@ class About extends React.Component {
       <div className='about__container'>
         <div className="about__title"><p>about me</p></div>
         <div className="about__me">
-          <div>{[one]}</div>
+          <div>{one}</div>
           <div className="about__technologies">
             <ul className="tech-stack">
               {tech_list.map(function (tech_item, i) {
                 return (
-                  <FadeInSection delay={`${i + 1}00ms`}>
-                    <li>{tech_item}</li>
+                  <FadeInSection key={i} delay={`${i + 1}00ms`}>
+                    <li key={i}>{tech_item}</li>
                   </FadeInSection>
                 );
               })}
             </ul>
             </div>
-          <div>{[two]}</div>
+          <div>{two}</div>
         </div>
 
       </div>

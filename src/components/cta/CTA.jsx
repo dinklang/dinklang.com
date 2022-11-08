@@ -1,6 +1,6 @@
 import React from 'react';
 import './cta.css';
-import ValidationTextFields from './FormPropsTextField';
+import ValidationTextFields from './ValidationTextFields';
 
 const CTA = () => {
   return (
